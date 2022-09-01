@@ -177,6 +177,11 @@ h4 {
   height: 100%;
   /* padding-top: 94px; */
 }
+  /* .atut-icons {
+    width: 270px;
+    height: 120px;
+  } */
+
 .activity .container {
   display: flex;
   /* flex-direction: row | row-reverse | column | column-reverse; */
