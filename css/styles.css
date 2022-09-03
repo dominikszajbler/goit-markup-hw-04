@@ -49,6 +49,7 @@ h4 {
 }
 .icon {
   fill: currentColor;
+  /* viewBox="0 0 32 32" x="0" y="0"> */
 }
 .header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
@@ -115,13 +116,12 @@ h4 {
   color: var(--alt-text-color);
   margin: 25px;
 }
-
-/* .contact .link:not(:last-chid) {
-  margin: 50px;
+.contact-icon {
+  margin-right: 10px;
+  /* border: 1px dashed #2a2a2a; */
+  /* fill: #2a2a2a; */
 }
-.contact .link (:last-chid) {
-  margin-right: 12px;
-} */
+
 .contact .link:hover,
 .contact .link:focus {
   color: var(--active-link-color);
@@ -248,6 +248,36 @@ h4 {
 .profession {
   color: var(--alt-text-color);
 }
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  width: 44px;
+  height: 44px;
+  border: 2px dashed #2a2a2a;
+  border-radius: 50%;
+  /* fill: #2a2a2a */
+}
+.clients .container {
+  display: flex;
+  flex-direction: column;
+}
+.client-logos {
+  display: flex;
+  justify-content: space-between;
+}
+  .client-logo {
+  /* fill: currentColor; */
+  width:170px;
+  height:92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px; 
+  
+ }
+/* .client-logo {
+  style="outline: 2px dashed #2a2a2a;"
+} */
 .filter-buttons {
   display: flex;
   justify-content: center;
