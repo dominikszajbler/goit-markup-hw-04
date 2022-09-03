@@ -147,7 +147,10 @@ fill: var(--active-link-color);
   /* height: 600px; */
 }
 .home-buttonfield {
-  background: var(--addition-bg-color) url(/images/img_background.jpg) no-repeat 50% 50%;
+  background: var(--addition-bg-color);
+  background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url(/images/img_background.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   background-size: 1600px;
   /* border-radius: 0px; */
   /* height: 600px; */
