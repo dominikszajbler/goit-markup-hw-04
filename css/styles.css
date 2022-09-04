@@ -152,7 +152,9 @@ svg {
     url("../images/img_background.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: 1600px;
+  max-width: 1600px;
+  margin: 0 auto;
+  /* background-size: 1600px; */
   /* border-radius: 0px; */
   /* height: 600px; */
 }
@@ -234,6 +236,8 @@ svg {
 
 .sectionheader {
   font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
   margin: 0 auto;
   padding-bottom: 50px;
 }
@@ -310,6 +314,7 @@ svg {
   fill: var(--icons-color);
   width: 170px;
   height: 92px;
+  padding: 15px 31px;
   border: 1px solid var(--icons-color);
   border-radius: 4px;
 }
@@ -361,6 +366,13 @@ svg {
   flex-wrap: wrap;
   gap: 30px;
   padding: 0;
+}
+.webside,
+.design,
+.app,
+.marketing {
+      color: var(--text-color);
+      text-decoration: none;
 }
 /* .nth-creation { */
 /* margin: 0 auto; */
