@@ -109,7 +109,8 @@ svg {
 .link-general:visited {
   color: transparent;
 }
-.contact {
+.contact,
+.contact-link {
   display: flex;
   align-items: baseline;
 
